@@ -216,4 +216,4 @@ def remove_from_cart(item_id: int):
             return {"message": "Item removed from cart successfully", "item_id": item_id}
     return {"error": "Item not found in cart"}
 
-
+# Run the application using: uvicorn main:app --reload
